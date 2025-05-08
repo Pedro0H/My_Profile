@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Contato"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-40dp"
+        android:backgroundTint="@color/azul_personalizado"
+        android:text="Voltar" />
+
+    <!-- Layout Horizontal para Gmail -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            app:srcCompat="@drawable/gmail" />
+
+        <TextView
+            android:id="@+id/gmail_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_link"
+            android:textColor="@color/azul_personalizado"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start" />
+    </LinearLayout>
+
+    <!-- Layout Horizontal para LinkedIn -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            app:srcCompat="@drawable/linkedin" />
+
+        <TextView
+            android:id="@+id/linkedin_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linkedin_link"
+            android:textColor="@color/azul_personalizado"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start" />
+    </LinearLayout>
+
+    <!-- Layout Horizontal para WhatsApp -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            app:srcCompat="@drawable/zap" />
+
+        <TextView
+            android:id="@+id/zap_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zap_link"
+            android:textColor="@color/azul_personalizado"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start" />
+    </LinearLayout>
+
+    <!-- Layout Horizontal para Instagram -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            app:srcCompat="@drawable/images" />
+
+        <TextView
+            android:id="@+id/insta_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insta_link"
+            android:textColor="@color/azul_personalizado"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start" />
+    </LinearLayout>
+
+    <!-- Layout Horizontal para GitHub -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            app:srcCompat="@drawable/git" />
+
+        <TextView
+            android:id="@+id/git_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/git_link"
+            android:textColor="@color/azul_personalizado"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start" />
+    </LinearLayout>
+
+</LinearLayout>

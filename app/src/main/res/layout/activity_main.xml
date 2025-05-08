@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/fundo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="@color/azul_personalizado"
+        app:civ_border_width="5dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-290dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pedro Lima"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="  Meu nome é Pedro tenho 19 anos e sou uma pessoa ativa que tem interesse na área de programação atualmente tenho conhecimento nas áreas de programação na linguagem Python e em SQL (Banco de dados), atualmente estou cursando o terceiro semestre de engenharia na computação na faculdade impacta, possuo inglês intermediário então tenho uma certa facilidade em ler e escrever mas com déficit na fala, tenho vontade de aprender e atualmente estou estudando nesse semestre Desenvolvimento Mobile na linguagem Kotlin e AWS Meu nome é Pedro tenho 19 anos e sou uma pessoa ativa que tem interesse na área de programação atualmente tenho conhecimento nas áreas de programação na linguagem Python e em SQL (Banco de dados), atualmente estou cursando o terceiro semestre de engenharia na computação na faculdade impacta, possuo inglês intermediário então tenho uma certa facilidade em ler e escrever mas com déficit na fala, tenho vontade de aprender e atualmente estou estudando nesse semestre Desenvolvimento Mobile na linguagem Kotlin e AWS em Ambientes Operacionais. \n\n\n\n"
+            android:layout_marginRight="30dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/azul_personalizado"
+        android:text="Meus Projetos"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/azul_personalizado"
+        android:text="Contato"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

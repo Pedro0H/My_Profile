@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Profile</string>
+    <string name="myprofile_link"><u>My Profile</u></string>
+    <string name="agenda_link"><u>Agenda</u></string>
+    <string name="imc_link"><u>IMC Calculator</u></string>
+    <string name="email_link"><u>pedrohenriquelimapereira9@gmail.com</u></string>
+    <string name="linkedin_link"><u>Pedro Henrique Lima Pereira</u></string>
+    <string name="zap_link"><u>+55 11 98614-8362</u></string>
+    <string name="insta_link"><u>Pedroh.lp</u></string>
+    <string name="git_link"><u>Pedro0H</u></string>
+
+
+
+</resources>
