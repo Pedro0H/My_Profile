@@ -22,15 +22,15 @@ class ProjectsActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-        /*
+        
 
         val gitText = findViewById<TextView>(R.id.myprofile_text)
         gitText.setOnClickListener {
-            val url = ""
+            val url = "https://github.com/Pedro0H/My_Profile"
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }
-
+/*
         val gitText = findViewById<TextView>(R.id.agenda_text)
         gitText.setOnClickListener {
             val url = ""
